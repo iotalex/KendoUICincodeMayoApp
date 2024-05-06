@@ -1,0 +1,65 @@
+
+body {
+    background-color: #ffdfba; /* Light Orange */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container {
+    background-color: #f0a500; /* Orange */
+    padding: 20px;
+    border-radius: 10px;
+}
+h1, h2 {
+    color: #ffffff; /* White */
+    text-align: center;
+}
+button {
+    background-color: #ff3838; /* Red */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #ff4d4d; /* Lighter Red */
+}
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ffffff; /* White */
+    margin-right: 8px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-btn, .taco-btn {
+    background-color: #ff3838; /* Red */
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.delete-btn:hover, .taco-btn:hover {
+    background-color: #ff4d4d; /* Lighter Red */
+}
+.taco-btn {
+    background-color: #3E3E3E; /* Dark Gray */
+}
+.taco-btn:hover {
+    background-color: #545454; /* Lighter Dark Gray */
+}
+        
